@@ -1,0 +1,155 @@
+body{
+  background-color: white;
+  font-family: 'Raleway';
+}
+
+.container {
+  position: relative;
+  width: 320px;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid gray;
+  background-color: lightgrey;
+}
+
+h1 {
+  /* font-style:oblique; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: cornflowerblue; */
+  padding-right: 80px;
+}
+
+/* .non-input {
+  width: 20px;
+  height: 
+} */
+
+.calculator_wrapper {
+  width: 300px;
+  max-width: 300px;
+  height: auto;
+  border: 1px solid gray;
+  box-shadow: 0px 1px 1px #ececec;
+  border-radius: 5px;
+}
+
+.calculator_display {
+  padding: 5px;
+  border: 1.5px solid grey;
+  overflow: hidden;
+  min-height: 70px;
+  max-height: 100px;
+  background-color: antiquewhite;
+  /* padding-bottom: -5px; */
+}
+
+.calculator_input {
+  border: none;
+  width: 100%;
+  /* max-height: 70px; */
+  outline: none;
+  text-align: left;
+  font-size:larger;
+  font-weight: 400;
+  /* overflow-x: unset; */
+  /* overflow-y: scroll; */
+  /* background-color: chartreuse; */
+}
+
+.calculator_output {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  /* background-color: aqua; */
+  /* border: 1px solid; */
+}
+
+.scroll_container{
+  background-color: #b22222;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.scroll {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-gap: 2px;
+  transform: rotate(45deg);
+  border: none;
+  width:fit-content;
+  justify-items: center;
+  margin: 5px;
+  /* background-color: aqua; */
+  /* border-top-left-radius: 50px; */
+  /* position: */
+}
+
+i {
+  transform: rotate(45deg);
+}
+
+.scroll button {
+  height: 50px;
+  width: 50px;
+}
+
+#slideT {
+  border-top-left-radius: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#slideR {
+  border-top-right-radius: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+#slideD {
+  border-bottom-right-radius:50px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+#slideL {
+  border-bottom-left-radius: 50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.btn_wrapper {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.btns {
+  flex: 1;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 10px 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: #003;
+  color: #F8f8f8;
+}
+
+button:hover {
+  background: #005;
+}
+
+.btn_container {
+  padding: 5px;
+  background-color: crimson;
+  /* margin: 5px; */
+}
+
+h1 {
+
+}
